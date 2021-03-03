@@ -1,0 +1,78 @@
+
+/*Pied de page*/
+footer
+{
+	background-color: rgba(230,230,230,0.90);	
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	list-style-type: none;
+
+
+	
+
+}
+#reseaux ul
+{
+	background-color: ;
+	list-style-type: none;
+	z-index: 2;
+	padding: 5px 5px 5px 5px;
+	display: flex;
+	position: absolute;
+	bottom: 15px;
+	right: 60px;
+	justify-content: space-between;
+}
+#reseaux ul img.noir
+{
+	width: 40px;
+
+}
+
+#reseaux li
+{
+	margin-right: 20px;
+}
+
+img.couleur
+{
+	opacity: 0;
+	transition: opacity 800ms;
+	width: 45px;
+	
+}
+img:hover.couleur
+{
+	opacity: 1;
+}
+
+img.noir
+{
+	opacity: 1;
+	transition: opacity 800ms;
+	
+}
+img:hover.noir
+{
+	opacity: 0;
+}
+
+
+#copyright
+{
+	font-size: 12px;
+	font-family: 'quicksand';	
+	text-align: center;
+	position: relative;
+	bottom: -170px;	
+}
+#logo_noir
+{
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: -20px;
+}

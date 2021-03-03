@@ -1,0 +1,61 @@
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'quicksand';
+    src: url('../police/Quicksand-Regular.otf');}    
+
+/* Bloc Page*/
+html
+{
+	height: 100%;
+}
+#bloc_page
+{
+	width: 100%;
+	min-height: auto;
+	position: relative;
+	padding-bottom: 200px;
+}
+body
+{
+	background-image: url(../image/fond.png);
+	background-repeat: repeat-y;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	position: relative;
+	overflow: auto;
+	word-wrap: break-word;
+	font-family: 'quicksand';
+	scroll-behavior: smooth;
+
+}
+@media screen and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+		min-height: 100%;
+	}
+
+	body
+	{
+	background-image: url(/image/fond.png);
+	background-repeat: repeat-y;
+	background-size: cover;	
+	min-height: auto;
+	background-size: 100%;
+	
+	
+	width: auto;
+
+	overflow: auto;
+	word-wrap: break-word;
+	font-family: 'quicksand';
+	scroll-behavior: smooth;
+
+	}	
+	section
+	{
+		height: 100%;
+	}
+}

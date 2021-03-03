@@ -1,0 +1,85 @@
+header
+{
+	background-image: url(../header/baniere.png);
+	background-repeat: no-repeat;
+	height: 156px;
+	width: 100%;
+	margin: -20px -60px 0px 0px;
+	background-size: cover;
+}
+
+.logo
+{
+	width: 200px;
+	height: 60px;
+	margin-top: 50px;
+	margin-right: -20px;
+	z-index: 2;
+	position: relative;
+	
+}
+#menu{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/* Navigation*/
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	background-color: rgba(0,0,0,0.75);
+	
+}
+
+nav li
+{
+	margin-right: 50px;	
+}
+
+nav a
+{
+	color: orange;
+	text-decoration: none;
+	font-family: 'quicksand';
+	font-size: 23px;
+	text-transform: uppercase;
+	transition-property: background-color;
+	transition-duration: 800ms;
+}
+
+nav a:hover
+{
+	/*text-decoration: underline;*/
+	background-color: white;
+}
+@media screen and (max-width: 1024px)
+{
+
+header
+{
+	width: 100%;	
+	height: 215px;
+}
+
+.logo
+{
+	width: 350px;	
+	height: 105px;
+}
+nav li
+{
+	margin-right: 73px;	
+}
+header
+{
+	margin: -20px -105px 0px 0px;
+}
+nav a
+{	
+	font-size: 35px;
+}
+
+}

@@ -1,0 +1,172 @@
+/*Image full resolution*/
+#image img
+{
+    width: 1000px;
+    border-radius: 10px;    
+}
+
+#image
+{	    
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 10px;
+}
+#image a
+{
+	width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+#bloc_1
+{
+	width: 100%;
+    position: relative;
+    height: 620px;
+}
+/* wikipedia et données*/
+#documentation
+{
+	position: absolute;
+    top: 20px;
+    right: 0px;
+    padding-right: 50px;
+    padding-left: 35px;
+    background-color: rgba(0, 0,0, 0.75);
+    border-radius: 10px;
+
+}
+#documentation ul
+{
+	color: white;
+	list-style-type: none;
+
+}
+#documentation h1
+{
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+
+}
+#documentation strong
+{
+	color: orange;
+	font-weight: bold;
+
+}
+#documentation p
+{
+	color: white;
+    width: 300px;
+    height: auto;
+    overflow: auto;
+    text-align: justify;
+
+}
+#documentation a
+{
+	color: white;
+	transition: color 0.5s;
+	text-decoration: none;
+
+}
+#documentation a:hover
+{
+	color: lightblue;
+	
+}
+/* notes de l'auteur*/
+#description
+{
+	position: relative;
+}
+#description h1
+{
+	color: orange;
+	font-weight: bold;
+	width: 100%;
+	text-align:center;
+	font-size: 30px;
+}
+#description p
+{
+	width: 1000px;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    margin:0 auto;
+}
+/* Info techniques tableau*/
+#exif
+{
+position: relative;
+height: 450px;
+
+}
+#exif table
+{
+    border-collapse: collapse;
+    background-color: rgba(10,10,10,0.75);
+    border: 3px solid white;
+    margin: 30px auto 0;
+}
+#exif td,th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+}
+#exif td
+{
+	text-align: center;
+	color: white;
+	width: 250px;
+    height: 30px;
+}
+
+
+#exif tr:nth-child(even) {
+  background-color: grey;
+}
+#exif caption
+{
+	text-align: center;
+	color: white;
+	border: 3px solid white;
+	background-color: grey;
+}
+
+
+
+@media screen and (max-width: 1024px)
+{
+	#image img
+{
+    width: 800px;
+}
+#image a
+{
+	width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+#bloc_1
+{
+	width: 100%;
+    position: relative;
+    height: 500px;
+}
+#description h1
+{	
+	font-size: 35px;
+}
+#description p
+{
+	width: 700px;
+    font-size: 25px;    
+}
+#documentation
+{
+display: none;
+}
+
+
+}

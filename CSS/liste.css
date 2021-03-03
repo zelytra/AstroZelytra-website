@@ -1,0 +1,114 @@
+#liste1
+{
+	padding-left: 25%;
+}
+#liste1 li
+{
+list-style-type: none;
+}
+
+.liste
+{
+	position: relative;
+
+}
+
+
+.liste img
+{
+width:150px;
+border-radius: 10px; 
+}
+
+.liste h1
+{
+position: absolute;
+top: -15px;
+left: 160px;
+text-decoration: none;
+font-size: 1.5em;
+color: rgb(186, 101, 4);
+}
+
+.liste h2
+{
+position: absolute;
+top: 20px;
+left: 160px;
+font-size: 15px;
+font-weight: bold;
+}
+
+.liste p.desc
+{
+position: absolute;
+top: 39px;
+left: 160px;
+width: 600px;
+height: 80px;
+overflow: hidden;
+text-align: justify;
+}
+.plus
+{
+position: absolute;
+left: 160px;
+top: 115px;
+text-decoration: none;
+color: grey;
+transition-property: color;
+transition-duration: 0.25s;
+}
+
+.plus:hover
+{
+	color: orange;
+}
+
+@media screen and (max-width: 1024px)
+{
+#liste1
+{
+	padding-left: 10px;
+}
+.liste img 
+{
+    width: 300px;
+}
+
+    .liste h2 
+{
+    top: 70px;
+    left: 310px;
+    font-size: 21px;
+}
+
+    .liste h1 
+{    
+    top: -32px;
+    left: 310px;    
+    font-size: 37px;
+    overflow: auto;
+}
+
+.liste p.desc 
+{    
+    top: 91px;
+    left: 310px;
+    font-size: 23px;
+    width: 570px;
+    height: 200px;
+}
+.plus 
+{
+    position: absolute;
+    left: 310px;
+    top: 258px;
+    font-size: 20px;
+}
+
+
+
+
+
+}

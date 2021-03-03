@@ -1,0 +1,106 @@
+#propos
+{
+	background-color: rgba(190, 190, 190,0.75);
+    width: 750px;
+    height: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 10px;
+}
+#propos img
+{
+	width: 480px;
+    position: absolute;
+    
+}
+#propos h1
+{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+#propos h2
+{
+	font-weight: bold;
+	text-align: center;
+}
+#propos p
+{
+	font-size: 20px;
+	text-align: justify;
+	padding: 22px 15px;
+}
+#propos #part1 img
+{	
+	top: -19px;
+    left: -463px;
+}
+#propos #part2 img
+{	
+	top: 440px;
+    left: 730px;
+}
+#propos #part3 img
+{	
+	top: 980px;
+    left: -463px;
+}
+#propos #part4 img
+{	
+	top: 1465px;
+    left: 758px;
+    width: 418px;
+}
+#propos #part5 img
+{	
+	top: 1856px;
+    left: -438px;
+    width: 418px;
+}
+
+@media screen and (max-width: 1024px)
+{
+#propos
+{	
+    width: 600px;
+    height: 5800px;
+}
+#propos img
+{
+	width: 200px;
+}
+#propos p
+{
+	font-size: 30px;
+}
+
+#propos #part1 img
+{	
+	top: 285px;
+    left: -195px;
+}
+#propos #part2 img
+{	
+	top: 1200px;
+    left: 595px;
+}
+#propos #part3 img
+{	
+	top: 3000px;
+    left: -195px;
+}
+#propos #part4 img
+{	
+	top: 4200px;
+    left: 608px;
+    width: 176px;
+}
+#propos #part5 img
+{	
+	top: 5150px;
+    left: -183px;
+    width: 176px;
+}
+
+}
